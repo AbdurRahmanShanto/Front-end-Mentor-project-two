@@ -1,0 +1,268 @@
+
+@media only screen and (max-width : 360px){
+
+    body {
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .main_section{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .left_part{
+
+        height: 85vh;
+        width: 100%;
+        background-image: linear-gradient(to top, #4335e0 10% , #613EFC 90%);
+        border-radius: none;
+
+    }
+
+    
+    .right_part{
+    
+        background-color: #FFFFFF;
+        display: flex;
+        width: 100%;
+        border-radius: 20px;
+        height: 100%;
+
+        h3{
+
+            margin-right: 60vw;
+            margin-bottom: 20px;
+            font-size: 22px;
+    
+        }
+
+    }
+
+    .item1{
+        display: flex;
+        height: 50px;
+        background-color: #ffffff;
+        width:90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+    .reaction{
+        background-color: #FFF7F5;
+    }
+    
+    .memory{
+        background-color:#FEFCF1;
+    }
+    
+    .verbal{
+        background-color: #F2FBFA;
+    }
+    .visual{
+        background-color: #F3F3FF;
+    }
+
+    button{
+
+        height: 50px;
+        width: 90%;
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width : 412px){
+
+    body {
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .main_section{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .left_part{
+
+        height: 85vh;
+        width: 100%;
+        background-image: linear-gradient(to top, #4335e0 10% , #613EFC 90%);
+        border-radius: none;
+
+    }
+
+    
+    .right_part{
+    
+        background-color: #FFFFFF;
+        display: flex;
+        width: 100%;
+        border-radius: 20px;
+        height: 100%;
+
+        h3{
+
+            margin-right: 65vw;
+            margin-bottom: 20px;
+            font-size: 22px;
+    
+        }
+
+    }
+
+    .item1{
+        display: flex;
+        height: 50px;
+        background-color: #ffffff;
+        width:90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+    .reaction{
+        background-color: #FFF7F5;
+    }
+    
+    .memory{
+        background-color:#FEFCF1;
+    }
+    
+    .verbal{
+        background-color: #F2FBFA;
+    }
+    .visual{
+        background-color: #F3F3FF;
+    }
+
+    button{
+
+        height: 50px;
+        width: 90%;
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width : 768px){
+
+    body {
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .main_section{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .left_part{
+
+        height: 85vh;
+        width: 100%;
+        background-image: linear-gradient(to top, #4335e0 10% , #613EFC 90%);
+        border-radius: none;
+
+    }
+
+    
+    .right_part{
+    
+        background-color: #FFFFFF;
+        display: flex;
+        width: 100%;
+        border-radius: 20px;
+        height: 100%;
+
+        h3{
+
+            margin-right: 75vw;
+            margin-bottom: 20px;
+            font-size: 22px;
+    
+        }
+
+    }
+
+    .item1{
+        display: flex;
+        height: 50px;
+        background-color: #ffffff;
+        width:90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+    .reaction{
+        background-color: #FFF7F5;
+    }
+    
+    .memory{
+        background-color:#FEFCF1;
+    }
+    
+    .verbal{
+        background-color: #F2FBFA;
+    }
+    .visual{
+        background-color: #F3F3FF;
+    }
+
+    button{
+
+        height: 50px;
+        width: 90%;
+
+    }
+
+}
+

@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk ;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_section{
+
+    display: flex;
+    height: 45%;
+    width: 35vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.left_part{
+
+    height: 100%;
+    width: calc(35vw - 50%);
+    background-image: linear-gradient(to top, #4335e0 10%, #4233EF 50% , #322CE9 90%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    
+    .number{
+
+        height: 150px;
+        width: 150px;
+        background-image: linear-gradient(to top, #4A25CF 0%, #4335e0 100%);
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 50px;
+
+        p{
+
+            color: #d2d2d2;
+
+        }
+
+    }
+
+    h2 {
+
+        color: #b5b3c0;
+
+    }
+
+    p {
+
+        font-size: 18px;
+        margin-left: 35px;
+        margin-right: 35px;
+        text-align: center;
+
+    }
+
+}
+
+
+.right_part{
+
+    background-color: #FFFFFF;
+    display: flex;
+    width: calc(35vw - 50%);
+    border-radius: 20px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+
+        margin-right: 170px;
+        margin-bottom: 20px;
+        font-size: 22px;
+
+    }
+
+}
+
+.item1{
+    display: flex;
+    height: 50px;
+    background-color: #b5b3c0;
+    width: calc(35vw - 120%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+    p {
+
+        margin-right: 65px;
+
+    }
+
+}
+
+.reaction{
+    background-color: #FFF7F5;
+}
+
+.memory{
+    background-color:#FEFCF1;
+}
+
+.verbal{
+    background-color: #F2FBFA;
+}
+.visual{
+    background-color: #F3F3FF;
+}
+
+button{
+
+    height: 50px;
+    width: calc(35vw - 120%);
+    border-radius: 25px;
+    margin-top: 35px;
+    border: none;
+    background-color: #303B58;
+    color: #FFFF;
+
+}
+
